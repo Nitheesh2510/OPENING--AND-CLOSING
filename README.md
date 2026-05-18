@@ -47,7 +47,7 @@ kernel = np.ones((3, 3), np.uint8)
 ```
 ## Display the input image
 ```
-print("SANTHOSH KUMAR")
+print("NITHEESH KUMAR")
 print("212224230189")
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for displaying
 plt.title("Input Image with Text")
@@ -60,7 +60,7 @@ opened_image = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
 ```
 ## Display the result of Opening
 ```
-print("SANTHOSH KUMAR")
+print("NITHEESH KUMAR")
 print("212224230189")
 plt.imshow(cv2.cvtColor(opened_image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB
 plt.title("Opening Operation")
@@ -75,7 +75,7 @@ closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 ```
 ## Display the result of Opening
 ```
-print("SANTHOSH KUMAR")
+print("NITHEESH KUMAR")
 print("212224230189")
 plt.imshow(cv2.cvtColor(closed_image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB
 plt.title("Closing Operation")
